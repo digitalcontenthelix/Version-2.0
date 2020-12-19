@@ -1,0 +1,308 @@
+/* MAIN PAGE THEME --------------------------------- */
+body {
+	background: #ededef;
+	/* font-family: 'Raleway', sans-serif; */
+	font-family: 'Amaranth', sans-serif;
+}
+content {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.container-fluid {
+	padding: 0px;
+}
+.container-fluid.sample {
+	margin: 100px 0px 10px 0px;
+}
+.container-fluid .sec-title {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 700;
+	color: #333;
+	transition: 0.5s;
+}
+.container-fluid .sec-title:hover {
+	color: #ffb24e;
+}
+
+/* MAIN NAVBAR  --------------------------------- */
+#mainNavbar {
+	background-color: #ededef;
+	opacity: 95%;
+}
+#mainNavbar .navbar-brand {
+	color: #36a696;
+}
+#navbar-logo {
+	width: 60px;
+	margin: 0px;
+	padding: 0px;
+}
+#mainNavbar .nav-link {
+	color: #333;
+	font-weight: 600;
+}
+#mainNavbar .nav-link:hover {
+	color: #36a696;
+	transition: 0.5s;
+}
+.navbar-nav li {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0px 5px;
+}
+.navbar-light .navbar-toggler {
+	border-color: #ededef;
+}
+
+/* TOP SECTION  --------------------------------- */
+div #top-sec {
+	padding: 0px 50px 400px 50px;
+	margin: 0px 0px 20px 0px;
+	background: bottom/cover no-repeat url("img/desk.jfif");
+	border-bottom: 1px solid #d4d4d4;
+}
+div #top-text {
+	margin-top: 80px;
+	padding: 20px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #333;
+	/* font-family: 'Carter One', cursive; */
+	font-family: 'Amaranth', sans-serif;
+}
+div #top-text p {
+	margin: 0px;
+}
+span.brand {
+	color: #36a696;
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+h2.sec-header {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #36a696;
+	border-bottom: 1px solid #d4d4d4;
+	margin: 150px 0px 25px 0px;
+	transition: 0.75s;
+}
+h2.sec-header:hover {
+	letter-spacing: 15px;
+	font-weight: 900;
+	color: #ffb24e;
+}
+
+/* SERVICES SECTIONS --------------------------------- */
+.serv-info {
+	padding: 0px;
+}
+.serv-info li {
+	font-size: 1.1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	list-style-type: none;
+	padding-inline-start: 0px;
+	transition: letter-spacing 2s;
+	margin-top: 10px;
+	color: #333;
+}
+.serv-info li:hover {
+	letter-spacing: 5px;
+	font-weight: 700;
+	/* color: #ffb24e; */
+}
+.container-fluid .serv-title {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 40px 0px 20px 0px;
+	font-weight: 700;
+	color: #36a696;
+	transition: 1s;
+}
+.container-fluid .serv-title:hover {
+	color: #ffb24e;
+}
+#vpd-icon,
+#sml-icon {
+	font-size: 50px;
+	margin-bottom: 15px;
+	transition: font-size 0.5s;
+	color: #666;
+	display: none;
+	border: 5px solid white;
+}
+#serv-sec-1,
+#serv-sec-2 {
+	margin-bottom: 350px;
+}
+div #vpd {
+	background: center/cover no-repeat url("img/journey-ls.jpg");
+	border-bottom: 20px solid #ededef;
+}
+div #sml {
+	background: center/cover no-repeat url("img/play-disc-ls.jpg");
+	border-bottom: 20px solid #ededef;
+}
+
+/* SUB SECTIONS --------------------------------- */
+.sub-sec {
+	/* margin: 2rem; */
+}
+.sub-sec h2 {
+	font-size: 1.5rem;
+}
+iframe {
+	width: 100%;
+	margin: 0px 0px;
+}
+.sec-detail {
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin: 0px;
+	text-align: center;
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+.video {
+	background-color: #e4e5ec;
+	border: 5px solid #e4e5ec;
+	transition: 1s;
+}
+.video:hover {
+	border: 5px solid #ffb24e;
+}
+
+/* TEAM MEMBERS SECTION --------------------------------- */
+.team-member img {
+	width: 50%;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	border: 5px solid #36a696;
+	transition: 0.75s;
+}
+.team-member img:hover {
+	border: 5px solid #ffb24e;
+}
+.team-member p {
+	margin-bottom: 80px;
+}
+.team-member h3 {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.5;
+	transition: 0.75s;
+}
+.team-member h3:hover {
+	letter-spacing: 10px;
+	font-weight: 800;
+	color: #ffb24e;
+}
+.sub-sec h3 {
+	font-size: 1.1rem;
+}
+.container-fluid#team {
+	margin: 0px;
+}
+
+/* SCHEDULE A CALL WITH US --------------------------------- */
+div#call,
+div#message {
+	margin: 1rem 0rem 8rem 0rem;
+}
+.sub-sec#call button {
+	background-color: #36a696;
+	border: 0px #0f3a33 solid;
+	padding: 5px 20px;
+	border-radius: 4px;
+	transition: 0.75s;
+}
+.sub-sec#call button:hover {
+	background-color: #ffb24e;
+}
+.sub-sec#call button a {
+	color: #ededef;
+}
+h3.contact {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+	/* margin-bottom: 20px; */
+	text-align: center;
+}
+
+/* INFORMATION SECTION --------------------------------- */
+.info-icon {
+	font-size: 40px;
+	margin: 0px 15px 15px;
+}
+.info-icon .fab {
+	margin: 25px 25px 25px;
+	transition: 0.5s;
+}
+div .info-icon a i {
+	color: #36a696;
+	transition: 0.5s;
+}
+div .info-icon a i:hover {
+	color: #ffb24e;
+}
+h2#dch {
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.5;
+	/* color: #36a696; */
+}
+
+/* CONTACT US FORM --------------------------------- */
+#success_message {
+	display: none;
+}
+#mc_embed_signup {
+	margin: 0px 25px;
+}
+#mc_embed_signup form {
+	background-color: #ededef;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+#mc_embed_signup .clear .button {
+	clear: both;
+	background-color: #36a696;
+	border: 0 none;
+	border-radius: 4px;
+	transition: all 0.23s ease-in-out 0s;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: normal;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 5px 10px 0;
+	padding: 0 22px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+	transition: 0.75s;
+}
+#mc_embed_signup .clear .button:hover {
+	background-color: #ffb24e;
+}
+/* @media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+} */
