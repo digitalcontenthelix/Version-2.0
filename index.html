@@ -94,10 +94,10 @@
     </section>
 
     <!-- SERVICE INFO SECTIONS -->
-    <h2 class="sec-header" id="services-section">SERVICES</h2>
+    <h2 class="sec-header reveal" id="services-section">SERVICES</h2>
     <section class="container-fluid" id="services">
         <div class="row align-items-center">
-            <div class="col-lg-6" id="vpd">
+            <div class="col-lg-6 reveal" id="vpd">
                 <div class="sub-sec text-center d-lg-block" id="serv-sec-1">
                     <i id="vpd-icon" class="fas fa-camera-retro service-icon"></i>
                     <h2 class="serv-title">VIDEO / LIGHT / WEBSITE</h2>
@@ -116,7 +116,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-6" id="sml">
+            <div class="col-lg-6 reveal" id="sml">
                 <div class="sub-sec text-center d-lg-block" id="serv-sec-2">
                     <i id="sml-icon" class="fas fa-icons"></i>
                     <h2 class="serv-title">SOUND / MUSIC / LIVE</h2>
@@ -139,7 +139,7 @@
     </section>
 
     <!-- INFO -->
-    <section class="container-fluid">
+    <section class="container-fluid reveal">
         <div class="row align-items-center">
             <div class="col">
                 <div class="sub-sec text-center d-lg-block">
@@ -314,6 +314,51 @@
                     }, 'json');
                 });
         });
+    </script>
+
+    <!-- REVEAL SMOOTH TRANSITION -->
+    <script type="text/javascript">
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+            for (var i = 0; i < reveals.length; i++) {
+
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if (revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+    <!-- REVEALSTILL SMOOTH TRANSITION -->
+    <script type="text/javascript">
+        window.addEventListener('scroll', revealStill);
+
+        function revealStill() {
+            var reveals = document.querySelectorAll('.revealStill');
+
+            for (var i = 0; i < reveals.length; i++) {
+
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if (revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('active');
+                }
+                else {
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
     </script>
 
 </body>
