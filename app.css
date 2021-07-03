@@ -12,10 +12,10 @@ content {
 }
 .container-fluid {
 	padding: 0px;
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
 }
 .container-fluid.sample {
-	margin: 0px 0px 10px 0px;
+	margin: 100px 0px 10px 0px;
 }
 .container-fluid .sec-title {
 	font-size: 1.5rem;
