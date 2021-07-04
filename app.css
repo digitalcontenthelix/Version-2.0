@@ -326,8 +326,8 @@ h2#dch {
     }
 }
 
-/* SLOW TRANSITION */
-.reveal{
+/* REVEAL TRANSITION */
+/* .reveal{
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -344,4 +344,4 @@ h2#dch {
 }
 .revealStill.active{
   opacity: 1;
-}
+} */
