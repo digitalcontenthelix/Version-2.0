@@ -1,6 +1,6 @@
 /* MAIN PAGE THEME --------------------------------- */
-* {
-	background: #ededef;
+body {
+	background: #ffffff;
 	font-family: 'Amaranth', sans-serif;
 	max-width: 100%;
 	overflow-x: hidden!important;
@@ -47,7 +47,7 @@ content {
 	font-weight: 600;
 }
 #mainNavbar .nav-link:hover {
-	color: #36a696;
+	color: #ffb24e;
 	transition: 0.5s;
 }
 .navbar-nav li {
@@ -99,8 +99,10 @@ h2.sec-header {
 	font-weight: 700;
 	line-height: 1.5;
 	color: #36a696;
-	border-top: 1px solid #d4d4d4;
-	border-bottom: 1px solid #d4d4d4;
+	/* border-top: 1px solid #d4d4d4; */
+	/* border-bottom: 1px solid #d4d4d4; */
+	border-top: 1px solid #36a696;
+	border-bottom: 1px solid #36a696;
 	margin: 50px 0px 50px 0px;
 	transition: 0.75s;
 }
@@ -108,6 +110,8 @@ h2.sec-header:hover {
 	letter-spacing: 15px;
 	font-weight: 900;
 	color: #ffb24e;
+	border-top: 1px solid #ffb24e;
+	border-bottom: 1px solid #ffb24e;
 }
 iframe {
 	border-radius: 20px;
@@ -188,7 +192,7 @@ iframe {
 	padding-inline-start: 0px;
 }
 .video {
-	background-color: #e4e5ec;
+	background-color: #ffffff;
 	border: 5px solid #e4e5ec;
 	transition: 1s;
 }
